@@ -186,43 +186,6 @@ model weights.
 
 ------------------------------------------------------------------------
 
-## 🌐 Flask API
-
-### Home Route
-
-``` text
-GET /
-```
-
-This route loads the web interface from:
-
-``` text
-templates/index.html
-```
-
-### Prediction Route
-
-``` text
-POST /predict
-```
-
-The image should be uploaded using the form field:
-
-``` text
-file
-```
-
-Example response:
-
-``` json
-{
-    "confidence": 0.23,
-    "class": "Normal"
-}
-```
-
-------------------------------------------------------------------------
-
 ## ⚙️ Installation
 
 ### 1. Clone or download the project
@@ -419,9 +382,3 @@ out pneumonia.
 **Classification Type:** Binary Classification
 
 ------------------------------------------------------------------------
-
-## 📄 License
-
-This project is intended for educational and research purposes. Add an
-appropriate open-source license if you plan to publish the project
-publicly.
